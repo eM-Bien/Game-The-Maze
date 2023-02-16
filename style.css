@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    overflow: hidden;
+}
+
+.winner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.hidden { 
+    display: none;
+}
+
+h1 {
+    font-size: 10vw;
+    color: #fff;
+}
